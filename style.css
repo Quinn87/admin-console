@@ -69,3 +69,29 @@ li svg {
     margin: 10px 0px 0px 30px;
     font-size: large;
 }
+
+.header-top
+
+.header-top button {
+    background-color: white;
+    border: none;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project-card {
+    margin: 20px;
+    border-left: #f0b429 solid 10px;
+    border-radius: 10px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 3px 5px 5px gray;
+}
